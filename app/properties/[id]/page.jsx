@@ -1,6 +1,10 @@
+import connectDB from "@/config/database";
+import Property from "@/models/Property";
+
 const PropertyPage = async ({ params }) => {
-  const { id } = await params;
-  return <div>Property Page {id}</div>;
+  await connectDB();
+  const property = await Property.findById(params.id).lean();
+  return <section>{property.name}</section>;
 };
 
 export default PropertyPage;

@@ -4,6 +4,7 @@ import InfoBoxes from "@/components/InfoBoxes";
 import HomeProperties from "@/components/HomeProperties";
 
 const HomePage = () => {
+  //console.log("MongoDB URL: " + process.env.MONGODB_URI);
   return (
     <>
       <Hero />
