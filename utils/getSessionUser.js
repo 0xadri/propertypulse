@@ -5,6 +5,7 @@ export const getSessionUser = async () => {
     const session = await getServerSession(authOptions);
 
     if (!session || !session.user){
+        console.log("NO USER");
         return null;
     }
 
