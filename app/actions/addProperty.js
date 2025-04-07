@@ -61,7 +61,6 @@ async function addProperty (formData){
       // Convert to base64
       const imageBase64 = imageData.toString('base64');
 
-      console.log("HERE 1");
       // Make request to cloudinary
       const result = await cloudinary.uploader.upload(
         `data:image/png;base64,${imageBase64}`, 
@@ -69,15 +68,12 @@ async function addProperty (formData){
           folder: "property-pulse"
         }
       );
-      console.log("HERE 2");
       imageUrls.push(result.secure_url);
     }
 
     propertyData.images = imageUrls;
-    console.log("HERE 3");
     const newProperty = new Property(propertyData);
     await newProperty.save();
-    console.log("HERE 4");
     revalidatePath("/","layout");
 
     redirect(`/properties/${newProperty._id}`);
