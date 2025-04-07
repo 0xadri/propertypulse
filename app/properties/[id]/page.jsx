@@ -16,7 +16,7 @@ const PropertyPage = async ({ params }) => {
             href="/properties"
             classNameName="text-blue-500 hover:text-blue-600 flex items-center"
           >
-            <FaArrowLeft classNameName="mr-2" /> Back to Properties
+            <FaArrowLeft className="mr-2" /> Back to Properties
           </Link>
         </div>
       </section>
