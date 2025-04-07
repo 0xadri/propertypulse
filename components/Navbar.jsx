@@ -62,7 +62,11 @@ const Navbar = () => {
 
           <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
             {/* {<!-- Logo -->} */}
-            <Link className="flex flex-shrink-0 items-center" href="/">
+            <Link
+              className="flex flex-shrink-0 items-center"
+              href="/"
+              onClick={() => setIsProfileMenuOpen(false)}
+            >
               <Image className="h-10 w-auto" src={logo} alt="PropertyPulse" />
 
               <span className="hidden md:block text-white text-2xl font-bold ml-2">
@@ -77,6 +81,7 @@ const Navbar = () => {
                   className={`${
                     pathname === "/" ? "bg-black" : ""
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                  onClick={() => setIsProfileMenuOpen(false)}
                 >
                   Home
                 </Link>
@@ -85,6 +90,7 @@ const Navbar = () => {
                   className={`${
                     pathname === "/properties" ? "bg-black" : ""
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                  onClick={() => setIsProfileMenuOpen(false)}
                 >
                   Properties
                 </Link>
@@ -94,6 +100,7 @@ const Navbar = () => {
                     className={`${
                       pathname === "/properties/add" ? "bg-black" : ""
                     } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
+                    onClick={() => setIsProfileMenuOpen(false)}
                   >
                     Add Property
                   </Link>
@@ -194,6 +201,7 @@ const Navbar = () => {
                       role="menuitem"
                       tabIndex="-1"
                       id="user-menu-item-0"
+                      onClick={() => setIsProfileMenuOpen(false)}
                     >
                       Your Profile
                     </Link>
@@ -203,6 +211,7 @@ const Navbar = () => {
                       role="menuitem"
                       tabIndex="-1"
                       id="user-menu-item-2"
+                      onClick={() => setIsProfileMenuOpen(false)}
                     >
                       Saved Properties
                     </Link>
@@ -235,6 +244,7 @@ const Navbar = () => {
               className={`${
                 pathname === "/" ? "bg-black" : ""
               } text-white block rounded-md px-3 py-2 text-base font-medium`}
+              onClick={() => setIsProfileMenuOpen(false)}
             >
               Home
             </Link>
@@ -243,6 +253,7 @@ const Navbar = () => {
               className={`${
                 pathname === "/properties" ? "bg-black" : ""
               } text-white block rounded-md px-3 py-2 text-base font-medium`}
+              onClick={() => setIsProfileMenuOpen(false)}
             >
               Properties
             </Link>
@@ -252,6 +263,7 @@ const Navbar = () => {
                 className={`${
                   pathname === "/properties/add" ? "bg-black" : ""
                 } text-white block rounded-md px-3 py-2 text-base font-medium`}
+                onClick={() => setIsProfileMenuOpen(false)}
               >
                 Add Property
               </Link>
