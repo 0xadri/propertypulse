@@ -21,6 +21,7 @@ const BookmarkButton = ({ property }) => {
     checkBookmarkStatus(property._id).then((res) => {
       if (res.error) toast.error(res.error);
       if (res.isBookmarked) setIsBookmarked(res.isBookmarked);
+      setIsLoading(false);
     });
   }, [property._id, userId]);
 
