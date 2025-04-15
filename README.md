@@ -1,3 +1,22 @@
+# PropertyPulse App
+
+### Tech
+
+Vanilla JavaScript · ReactJS · NextJS · NodeJS · Vercel · MongoDB · Mongoose · Cloudinary · Rest API · Vercel · NextAuth (GoogleAuth) · Mapbox maps · React Geocode · TailwindCSS.
+
+### Practice Goals
+
+- Code project from scratch following [this "Properties Listing App" udemy course](https://www.udemy.com/course/nextjs-from-scratch/)
+
+
+### Cloudinary
+
+API used in this project. Docs below on https://cloudinary.com/documentation
+
+
+------------
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
