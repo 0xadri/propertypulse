@@ -12,6 +12,10 @@ Vanilla JavaScript · ReactJS · NextJS · NodeJS · Vercel · MongoDB · Mongoo
 
 API used in this project. Docs below on https://cloudinary.com/documentation
 
+# Try App
+
+[Link To PropertyPulse App](https://propertypulse-sage.vercel.app/) (best on desktop)
+
 # Preview
 
 ![PropertyPulse App, by Adri](https://raw.githubusercontent.com/0xadri/propertypulse/refs/heads/main/public/screenshots/Screenshot%202025-04-15%20at%2018.00.58.png)
