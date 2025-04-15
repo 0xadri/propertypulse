@@ -8,11 +8,19 @@ Vanilla JavaScript · ReactJS · NextJS · NodeJS · Vercel · MongoDB · Mongoo
 
 - Code project from scratch following [this "Properties Listing App" udemy course](https://www.udemy.com/course/nextjs-from-scratch/)
 
-
 ### Cloudinary
 
 API used in this project. Docs below on https://cloudinary.com/documentation
 
+# Preview
+
+![PropertyPulse App, by Adri](https://raw.githubusercontent.com/0xadri/propertypulse/refs/heads/main/public/screenshots/Screenshot%202025-04-15%20at%2018.00.58.png)
+
+![PropertyPulse App, by Adri](https://raw.githubusercontent.com/0xadri/propertypulse/refs/heads/main/public/screenshots/Screenshot%202025-04-15%20at%2018.01.22.png)
+
+![PropertyPulse App, by Adri](https://raw.githubusercontent.com/0xadri/propertypulse/refs/heads/main/public/screenshots/Screenshot%202025-04-15%20at%2018.01.32.png)
+
+![PropertyPulse App, by Adri](https://raw.githubusercontent.com/0xadri/propertypulse/refs/heads/main/public/screenshots/Screenshot%202025-04-15%20at%2018.02.25.png)
 
 ------------
 
