@@ -14,7 +14,7 @@ API used in this project. Docs below on https://cloudinary.com/documentation
 
 # Try App
 
-[Link To PropertyPulse App](https://propertypulse-sage.vercel.app/) (best on desktop)
+[Link 🚀](https://propertypulse-sage.vercel.app/)
 
 # Preview
 
