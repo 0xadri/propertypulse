@@ -1,4 +1,4 @@
-# PropertyPulse App
+# Property Listing App
 
 ### Tech
 
@@ -14,7 +14,7 @@
 
 Cloudinary's API is used in this project, docs on https://cloudinary.com/documentation
 
-# Try App
+# Try It Live
 
 🚀 [Property Listing App](https://propertypulse-sage.vercel.app/) 🚀
 
