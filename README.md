@@ -2,19 +2,21 @@
 
 ### Tech
 
-Vanilla JavaScript · ReactJS · NextJS · NodeJS · Vercel · MongoDB · Mongoose · Cloudinary · Rest API · Vercel · NextAuth (GoogleAuth) · Mapbox maps · React Geocode · TailwindCSS.
+`Vanilla JavaScript` · `ReactJS` · `NextJS` · `NodeJS` · `Vercel` · `MongoDB` · `Mongoose` · `Cloudinary` · `Rest API` · `Vercel` · `NextAuth (GoogleAuth)` · `Mapbox maps` · `React Geocode` · `TailwindCSS`.
 
-### Practice Goals
+### Goals
 
-- Code project from scratch following [this "Properties Listing App" udemy course](https://www.udemy.com/course/nextjs-from-scratch/)
+✣ Code project from scratch following [this "Properties Listing App" udemy course](https://www.udemy.com/course/nextjs-from-scratch/)
 
-### Cloudinary
+✣ Further goals include: practice React, learn basics of NextJS + NextAuth + TailwindCSS.
 
-API used in this project. Docs below on https://cloudinary.com/documentation
+### APIs
+
+Cloudinary's API is used in this project, docs on https://cloudinary.com/documentation
 
 # Try App
 
-[Link 🚀](https://propertypulse-sage.vercel.app/)
+🚀 [Property Listing App](https://propertypulse-sage.vercel.app/) 🚀
 
 # Preview
 
