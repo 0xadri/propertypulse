@@ -2,7 +2,7 @@
 
 ### Tech
 
-`Vanilla JavaScript` · `ReactJS` · `NextJS` · `NodeJS` · `Vercel` · `MongoDB` · `Mongoose` · `Cloudinary` · `Rest API` · `Vercel` · `NextAuth (GoogleAuth)` · `Mapbox maps` · `React Geocode` · `TailwindCSS`.
+`Vanilla JavaScript` · `ReactJS` · `NextJS` · `NodeJS` · `Vercel` · `MongoDB` · `Mongoose` · `Cloudinary` · `Data Fetching` · `Rest API` · `Vercel` · `NextAuth (GoogleAuth)` · `Mapbox maps` · `React Geocode` · `TailwindCSS`.
 
 ### Goals
 
