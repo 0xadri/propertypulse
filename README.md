@@ -10,9 +10,11 @@
 
 ✣ Further goals include: practice React, learn basics of NextJS + NextAuth + TailwindCSS.
 
-### APIs
+### App Features
 
-Cloudinary's API is used in this project, docs on https://cloudinary.com/documentation
+View All Property Listings · Create/Add Property · Edit Property · Delete Property · Bookmark Property · Login w Google · Social Share · Map Location · Image Gallery
+
+Integration with Cloudinary API: [docs](https://cloudinary.com/documentation).
 
 # Try It Live
 
